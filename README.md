@@ -90,6 +90,6 @@ Step 9: Removing the Background
   - 9(C): Visualizing Segmentation for a Specific Object
     - Display segmentation results for a selected object.
     - The extracted object appears with a transparent or modified background.
-    - 9(D): Visualizing Segmentation for All Objects in a Loop
+ -  9(D): Visualizing Segmentation for All Objects in a Loop
     - Iterate through all detected objects and visualize them one by one.
     - Provide side-by-side comparisons of segmented objects.
