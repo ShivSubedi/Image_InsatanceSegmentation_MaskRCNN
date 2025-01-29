@@ -93,3 +93,13 @@ Step 9: Removing the Background
  -  9(D): Visualizing Segmentation for All Objects in a Loop
     - Iterate through all detected objects and visualize them one by one.
     - Provide side-by-side comparisons of segmented objects.
+
+Conclusion
+
+This repository provides a TensorFlow 2.x-compatible implementation of Mask R-CNN for instance segmentation.
+It builds upon the original research paper while ensuring compatibility with modern libraries. Key features include:
+
+- Accurate object detection and segmentation.
+- Pretrained model inference using COCO weights.
+- User-friendly visualization of results.
+- Compatibility with TensorFlow 2.x and modern GPUs.
