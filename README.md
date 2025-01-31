@@ -42,6 +42,8 @@ Step 3: Importing the Required Libraries
       - is compatible with Python version 3.11 I am currently using
   - 3(B): Installing Older Versions of TensorFlow
     - TensorFlow 2.16+ introduced changes that break compatibility with older .h5 weights. TensorFlow 2.15.0 still supports by_name=True for .h5 models without issues.
+  - 3(C): Importing other libraries
+    - Note: this section is not included in the original project. However implementation of this is done by importing libraries like: os, sys, cv2, skimage.io, and cv2_imshow before step 3(A). Importing this in step 3(A) is normally fine, but as you run colab session repeatedly (need to restart session after every older 'numpy' and 'tensorflow' version installation), colab may complain if 'recursion' error. So, it is always safe to import these libraries after step 3(A) and 3(B).
    
 Step 4: Importing Files from the MRCNN Folder
 - Import the necessary files from the MRCNN directory, which includes model architecture, utility, and visualisation functions.
